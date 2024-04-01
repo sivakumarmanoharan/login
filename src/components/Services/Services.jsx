@@ -17,21 +17,21 @@ const Services = () => {
             <img  onclick ="../CropForm.jsx"src={prog1} alt="" />
             <div className="caption">
                 <img src={prog1icon} alt="" />
-                <a href="../../Components/CropForm/CropForm">Crop Recommender</a>
+                <a href="../../components/CropForm/CropForm">Crop Recommender</a>
             </div>
         </div>
         <div className="service">
             <img src={prog2} alt="" />
             <div className="caption">
                 <img src={prog2icon} alt="" />
-                <p>Soil Recommender</p>
+                <a href="../../components/Fertilizer/Fertilizer">Fertilizer Recommender</a>
             </div>
         </div>
         <div className="service">
             <img src={prog3} alt="" />
             <div className="caption">
                 <img src={prog3icon} alt="" />
-                <p>Yield Estimator</p>
+                <a href="../../components/CropYeild/CropYeild">Yield Estimator</a>
             </div>
         </div>
 

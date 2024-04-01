@@ -36,12 +36,12 @@ const Form = () => {
                 res=>{
                     formData.predictCrop=res.prediction
                     alert( `The predicted crop is ${formData.predictCrop}`)
-                    window.location.href='/Components/CropForm/CropForm'
+                    window.location.reload()
                 }
             ).catch(err=>{
               console.log(err)
               alert('ML model issue')
-            window.location.href='/Components/CropForm/CropForm'})
+            window.location.reload()})
           }
         predictCrop()
         // You can handle form submission here
