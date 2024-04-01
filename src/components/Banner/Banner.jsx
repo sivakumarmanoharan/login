@@ -1,19 +1,18 @@
 import React from 'react'
 import './Banner.css'
 import dark_arrow from '../../assets/dark-arrow.png'
+import {Link} from "react-router-dom"
 
 const Banner = () => {
   return (
-    <div class="banner container" id ="bannerlink">
+    <div class="banner container3" id ="bannerlink">
         <div class="banner-text">
-            <h1>Sowing Innovation, Reaping Efficiency</h1>
-            <p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
-                Aenean commodo ligula eget dolor. Aenean massa. Cum sociis 
-                natoque penatibus et magnis dis parturient montes, nascetur 
-                ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, 
-                pretium quis, sem. Nulla consequat massa quis enim.</p>
+            <h1 class="banner-heading">Sowing Innovation, Reaping Efficiency</h1>
+            <p class="banner-content"> Agrosphere  empowers small-scale farmers by providing an application with real-time solutions, 
+            community connections, and access to resources, addressing challenges such as limited information on crops and fertilizers. 
+            </p>
             <br />
-            <button class="btn">Explore More <img src= {dark_arrow} alt="" /></button>
+            <Link to ="../../Pages/Store/Store">  <button class="btn3" onClick ="../../Pages/Store/Store">Explore More <img src= {dark_arrow} alt="" /></button></Link>
         </div>
       
     </div>

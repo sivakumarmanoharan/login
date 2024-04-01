@@ -1,11 +1,11 @@
-CropForecastingForm.css
+/* CropForecastingForm.css */
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-body {
+.cropbody {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -29,15 +29,10 @@ label {
     margin-bottom: 5px;
 }
 
-.container {
+.containercrop {
       background-color: white;
       padding: 0px 60px;
       border-radius: 10px;
-  }
-  
-  h1 {
-      color: rgb(77, 1, 77);
-      text-align: center;
   }
   
   input[type="submit"]{
@@ -63,12 +58,6 @@ label {
 /* styles.css */
 
 /* Reset some default styles */
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
 /* .container {
     background: linear-gradient(135deg, #f6d365, #fda085);
 } */
@@ -108,7 +97,7 @@ input[type="submit"]:hover {
 
 /* Reset some default styles */
 
-.container {
+.containercrop{
     max-width: 800px;
     background-color: rgba(255, 255, 255, 0.9);
     padding: 20px;
@@ -116,7 +105,7 @@ input[type="submit"]:hover {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-h2 {
+.croph2 {
     text-align: center;
     margin-bottom: 20px;
 }
@@ -173,7 +162,7 @@ input[type="submit"]:hover {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-h2 {
+.croph2 {
     text-align: center;
     margin-bottom: 20px;
 }
@@ -296,7 +285,7 @@ input[type="submit"]:hover {
     background: #EAEAEA;
     color: #676767;
 }
-.container .btn{
+.containercrop .btn{
     align-items: center;
     background: linear-gradient(135deg, #11998e, #38ef7d);
     margin-left: 55%;
@@ -325,6 +314,6 @@ input[type="submit"]:hover {
 } */
 
 /* Hover effect for the submit button */
-.container .btn:hover {
+.containercrop .btn:hover {
     background: linear-gradient(135deg, #38ef7d, #11998e);
 }

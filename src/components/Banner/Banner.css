@@ -18,12 +18,44 @@
     max-width: 800px;
 
 }
-.banner-text h1{
+.banner-text .banner-heading{
     font-size: 50px;
     font-weight: 500;
 }
-.banner-text p{
+.banner-text .banner-content{
     max-width: 700px;
     margin: 10px auto 20px;
     line-height: 1.4;
+    font-size: 20px;
+    /* font-weight: 100; */
 }
+
+
+  
+  .container3{
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .btn3{
+    background: #fff;
+    color: #212121;
+    padding: 14px 25px;
+    font-size: 16px;
+    border-radius: 30px;
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+  
+  }
+  
+  .btn3 img {
+    width: 22px;
+    margin-left: 10px;
+  }
+  .btn3:hover{
+    background-color: #468f4a;
+  }

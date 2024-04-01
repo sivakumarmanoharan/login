@@ -14,3 +14,7 @@
     gap: 30px;
     row-gap: 50px;
 }
+.container-display{
+    padding-left: 10%;
+    padding-right: 10%;
+}

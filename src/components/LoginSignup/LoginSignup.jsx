@@ -38,7 +38,9 @@ export const LoginSignup = () => {
     loginUser()
   }
   return (
-    <div className='container'> 
+    <div class="loginbody">
+      <p>.</p> 
+    <div className='container5'> 
           <div className="header">
               <div className="text">{action}</div>
               <div className="underline"></div>
@@ -63,6 +65,8 @@ export const LoginSignup = () => {
             <div className={action==="Login"?"submit gray":"submit"} onClick={()=>{setAction("Sign Up")}}>Sign Up</div>
             <div className={action==="Sign Up"?"submit gray":"submit"} onClick={handleSubmit}>Login</div>
           </div>
+    </div>
+   
     </div>
   )
 }

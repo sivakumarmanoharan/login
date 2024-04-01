@@ -49,8 +49,9 @@ const Form = () => {
     };
 
     return (
-        <div class = 'container' >
-            <h2>Crop Forecasting</h2>
+        <div class="cropbody">
+        <div class = 'containercrop' >
+            <h2 class='croph2'>Crop Forecasting</h2>
             <form onSubmit={handleSubmit}>
                 <label htmlFor="nitrogen">Nitrogen:</label>
                 <input type="text" id="nitrogen" name="nitrogen" value={(formData.nitrogen)} onChange={handleChange} required />
@@ -78,6 +79,7 @@ const Form = () => {
             </form>
             {/* <button class="btn" value ="submit" type="submit">hello</button> */}
 
+        </div>
         </div>
     );
 };

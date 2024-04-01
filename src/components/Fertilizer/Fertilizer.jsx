@@ -49,8 +49,9 @@ const FertilizerForm = () => {
     };
 
     return (
-        <div class = 'container' >
-            <h2>Fertilizer</h2>
+        <div class= "fertilizerbody">
+        <div class = 'containerfertilizer' >
+            <h2 class="fertilizerh2">Fertilizer</h2>
             <form onSubmit={handleSubmit}>
                 <label htmlFor="Temperature">Temperature</label>
                 <input type="text" id="temperature" name="temperature" value={formData.temperature} onChange={handleChange} required />
@@ -81,6 +82,7 @@ const FertilizerForm = () => {
             </form>
             {/* <button class="btn" value ="submit" type="submit">hello</button> */}
 
+        </div>
         </div>
     );
 };
