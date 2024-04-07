@@ -17,14 +17,7 @@ const UserChoice = () => {
     <div className="aboutr">
         <h3>Farmer</h3>
         <h2>Sell your Produce</h2>
-        <p>eflkfehwfohewoghewoighoewihgoiwrhgoihewgoiwhog'<br />
-        nvlgnregerjgjergjpreijgprjegrjegiji'erpjg'ijregjre'oigjreijg
-        
-        <br />erg'ijre'giojre'jg'</p>
-        <p>eflkfehwfohewoghewoighoewihgoiwrhgoihewgoiwhog'<br />
-        nvlgnregerjgjergjpreijgprjegrjegiji'erpjg'ijregjre'oigjreijg
-        
-        <br />erg'ijre'giojre'jg'</p>
+        <p>A trade platform to sell your products</p>
         <a href="/Pages/PlaceOrder/PlaceOrder">Explore Feature</a>
         </div>
   
@@ -36,14 +29,7 @@ const UserChoice = () => {
         <div className="aboutr">
             <h3>Customer</h3>
             <h2>Buy Produce directly from Small-scale Vendors</h2>
-            <p>eflkfehwfohewoghewoighoewihgoiwrhgoihewgoiwhog'<br />
-            nvlgnregerjgjergjpreijgprjegrjegiji'erpjg'ijregjre'oigjreijg
-            
-            <br />erg'ijre'giojre'jg'</p>
-            <p>eflkfehwfohewoghewoighoewihgoiwrhgoihewgoiwhog'<br />
-            nvlgnregerjgjergjpreijgprjegrjegiji'erpjg'ijregjre'oigjreijg
-            
-            <br />erg'ijre'giojre'jg'</p>
+            <p> People can buy fresh produce from farmers here </p>
             <a href="/Pages/PlaceOrder/PlaceOrder" >Explore Feature</a>
             </div>
 

@@ -1,8 +1,8 @@
 import React, {useState} from 'react'
 import './Cart.css'
-import Navbar from '../../Components/Navbar1/Navbar1'
-import Banner from '../../Components/Banner/Banner'
-import ItemDisplay from '../../Components/ItemDisplay/ItemDisplay'
+import Navbar from '../../components/Navbar1/Navbar1'
+import Banner from '../../components/Banner/Banner'
+import ItemDisplay from '../../components/ItemDisplay/ItemDisplay'
 
 
 const Cart = (props) => {

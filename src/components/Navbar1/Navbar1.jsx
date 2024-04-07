@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import './Navbar1.css'
-import logo from '../../assets/logo.png'
+import logo from '../../assets/aglogo.png'
 import {Link} from 'react-router-dom'
 
 const Navbar = () => {
@@ -21,6 +21,7 @@ const Navbar = () => {
     <ul>
         <a href="/" onClick = {() => SetMenu("Home")} class={menu==="Home"?"active" :""}>Home</a>
         <a href="../../Pages/Store/Store"onClick = {() => SetMenu("User")} class={menu==="User"?"active" :""}>User</a>
+        <a  href="/Pages/Assoc/Assoc" onClick = {() => SetMenu("Associations")} class={menu==="Associations"?"active" :""}>Associations</a>
         <a href="../../Pages/Cart/Cart"onClick = {() => SetMenu("Products")} class={menu==="Products"?"active" :""}>Products</a>
         <a href="../../Pages/Bag/Bag"onClick = {() => SetMenu("Cart")} class={menu==="Cart"?"active" :""}>Cart</a>
 

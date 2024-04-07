@@ -11,16 +11,13 @@ import menu_6 from './menu_6.png'
 import menu_7 from './menu_7.png'
 import menu_8 from './menu_8.png'
 
-import mark1 from './store1.jpeg'
-import mark2 from './store2.jpeg'
-import mark3 from './store3.jpeg'
-import mark4 from './store4.jpeg'
+import food_1 from './store1.jpeg'
+import food_2 from './store2.jpeg'
+import food_3 from './store3.jpeg'
+import food_4 from './store4.jpeg'
+//import food_5 from './store5.jpeg'
 
-import food_1 from './tomato1.jpg'
-import food_2 from './cabbage.jpg'
-import food_3 from './cauliflower1.jpg'
-import food_4 from './brinjal1.jpg'
-import food_5 from './potato1.jpg'
+
 // import food_6 from './food_6.png'
 // import food_7 from './food_7.png'
 // import food_8 from './food_8.png'
@@ -124,48 +121,8 @@ export const menu_list = [
 export const food_list = [
     {
         _id: "1",
-        name: "Tomato",
-        image: food_1,
-        price: 12,
-        description: "Bright, juicy tomatoes—perfect for elevating any meal.",
-        category: "Salad"
-    },
-    {
-        _id: "2",
-        name: "Cabbage",
-        image: food_2,
-        price: 18,
-        description: "Crisp, leafy greens offering a blend of earthy and peppery flavors, a staple for salads and slaws.",
-        category: "Salad"
-    }, {
-        _id: "3",
-        name: "Cauliflower",
-        image: food_3,
-        price: 16,
-        description: "A versatile vegetable with a mild, nutty taste, ideal for roasting, mashing, or as a low-carb substitute.",
-        category: "Salad"
-    }, {
-        _id: "4",
-        name: "Brinjal",
-        image: food_4,
-        price: 24,
-        description: "Rich in texture and flavor, brinjals are excellent for grilling, baking, or as a hearty addition to any dish.",
-        category: "Salad"
-    }, {
-        _id: "5",
-        name: "Potato",
-        image: food_5,
-        price: 14,
-        description: "The ultimate comfort food staple, offering a rich, buttery texture perfect for baking, frying, or mashing.",
-        category: "Rolls"
-    }
-]
-
-export const market_list = [
-    {
-        _id: "1",
         name: "Kannan SuperMarkets",
-        image: mark1,
+        image: food_1,
         price: +91-9042428014,
         description: "1, chittor main road, Suthanthira Ponvizha Nagar, Kalpudhur, Katpadi, Vellore, Tamil Nadu 632007, India",
         category: "Salad"
@@ -173,21 +130,21 @@ export const market_list = [
     {
         _id: "2",
         name: "Sri Sakthi Super Hypermart",
-        image: mark2,
+        image: food_2,
         price: +91-9041112825,
         description: "X4FP+9QG, M.G.R. Nagar, KRS Nagar, Katpadi, Vellore, Tamil Nadu 632007, India",
         category: "Salad"
     }, {
         _id: "3",
         name: "More SuperMarket",
-        image: mark3,
+        image: food_3,
         price: +91-8108138000,
         description: "Plot No.62, 7th East Main Road Gandhi Nagar Katpadi, Near EB Bus Stop, Chennai, Tamil Nadu 632006, India",
         category: "Salad"
     }, {
         _id: "4",
         name: "Mahalakshmi Supermarket",
-        image: mark4,
+        image: food_4,
         price: +91-9782718210,
         description: "459/2, Tiruvalam Rd, Suthanthira Ponvizha Nagar, Bharathi Nagar, Katpadi, Karnambut, Vellore, Tamil Nadu 632519, India",
         category: "Salad"
